@@ -127,6 +127,7 @@ body{
   }
   .main-content-button {
     margin-top: 40px;
+    text-align: center;
   }
 }
 @media (max-width:900px) {
@@ -148,10 +149,11 @@ body{
   }
   .main-content-button {
     font-size: 16px;
-    padding: 10px 20px;
+    padding: 12px 20px;
   }
   .main-content-button-arrow {
     display: none;
+    width: 0;
   }
 }
 @media(max-width:768px){
@@ -206,8 +208,7 @@ body{
     margin-top: -40px;
   }
   .main-content-button {
-    font-size: 12px;
-    padding: 8px 12px;
+    font-size: 14px;
     margin-top: 25px;
   }
   .main-content {
@@ -764,7 +765,7 @@ body{
   .footer-content {
     flex-direction: column;
     align-items: center;
-    padding: 40px 80px;
+    padding: 40px 60px;
   }
   .footer-column-text {
     gap: 50px;
@@ -777,10 +778,10 @@ body{
   }
   .footer-img2{
     width: 90px;
-    bottom: 80px;
+    bottom: 100px;
   }
   .footer-content-text{
-    gap: 8px;
+    gap: 15px;
   }
   .footer-column-title {
     font-size: 12px;
